@@ -63,8 +63,8 @@ a{
 .fotogabiru{
     background-image: url("fotogaribu.jpeg");
     background-size: cover;
-    min-width: 8em;
-    min-height: 8em;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     margin: 0 20px 0 0 ;
     animation: rodinha;
@@ -98,13 +98,30 @@ a{
         box-shadow: 10px 0 20px 5px #6CADA7;
     }
 }
-@media only screen and (max-width: 1280px) {
-    .allmq{
-        height: 620px;
+
+@media only screen and (max-width: 980px) {
+
+    .gabiru{
+        display: block;
+    }
+    .fotogabiru{
+        height: 200px;
+        width: 200px;
+    }
+    
+}
+@media only screen and (max-width: 700px) {
+    .chamariz{
+        top:3rem;
+        left: 0;
+        margin: 0 auto;
+    }
+    .title h1{
+        font-size: 4rem;
     }
 }
-@media only screen and (max-width: 1920px) {
-    .allmq{
-        height: 550px;
+@media only screen and (max-width: 500px) {
+    .title h1{
+        font-size: 3.2rem;
     }
 }
