@@ -1,0 +1,110 @@
+/*Coisas aletórias*/
+*{
+    transition-duration: 0.5s;
+}
+body{
+    margin: 0;
+    background-color: #C7D9D7;
+}
+a{
+    text-decoration: none;
+}
+::selection{
+    color: #DFF2F0;
+    background-color: #6CADA7;
+}
+/* Conteúdo */
+.all{
+    background-color: #DFF2F0;
+    margin:80px;
+    box-shadow:0 10px 20px 5px #6CADA7;
+}
+/*Botão de download*/
+.chamariz{
+    background-color: #6CADA7;
+    width: 220px;
+    position: relative;
+    top: 4rem;
+    left: 5rem;
+    padding: 10px 0;
+    border-radius: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #DFF2F0;
+    user-select: none;
+}
+.chamariz:hover{
+    background-color: #C7D9D7;
+    color: #426965;
+    transform: translateY(-5px);
+}
+/* Titulo */
+.title h1{
+    font-size: 5rem;
+    margin:6rem;
+    color: #426965;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* foto livro */
+
+/* gabiru */
+.gabiru{
+    position: relative;
+    left: 5rem;
+    bottom: 4em;
+    width: 70%;
+    display: flex;
+}
+.fotogabiru{
+    background-image: url("fotogaribu.jpeg");
+    background-size: cover;
+    min-width: 8em;
+    min-height: 8em;
+    border-radius: 50%;
+    margin: 0 20px 0 0 ;
+    animation: rodinha;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+}
+.descgabiru{
+    max-width: 400px;
+}
+.descgabiru h2, p{
+    margin: 10px;
+    color:#426965;
+}
+
+/* Animações */
+@keyframes rodinha {
+    0%{
+        box-shadow: 10px 0 20px 5px #6CADA7;
+    }
+    20%{
+        box-shadow: 0 10px 20px 5px #6CADA7;
+    }
+    40%{
+        box-shadow: 0 -10px 20px 5px #6CADA7;
+    }
+    80%{
+        box-shadow: 10px -10px 20px 5px #6CADA7
+    }
+    100%{
+        box-shadow: 10px 0 20px 5px #6CADA7;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    .allmq{
+        height: 620px;
+    }
+}
+@media only screen and (max-width: 1920px) {
+    .allmq{
+        height: 550px;
+    }
+}
