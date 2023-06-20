@@ -116,6 +116,9 @@ a{
         left: 0;
         margin: 0 auto;
     }
+    .descgabiru{
+        margin-right: 40px;
+    }
     .title h1{
         font-size: 4rem;
     }
