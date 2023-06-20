@@ -16,7 +16,7 @@ a{
 /* Conteúdo */
 .all{
     background-color: #DFF2F0;
-    margin:80px;
+    margin:70px;
     box-shadow:0 10px 20px 5px #6CADA7;
 }
 /*Botão de download*/
@@ -119,9 +119,23 @@ a{
     .title h1{
         font-size: 4rem;
     }
+    .all{
+        margin: 20px;
+    }
 }
 @media only screen and (max-width: 500px) {
     .title h1{
         font-size: 3.2rem;
     }
+}
+@media only screen and (max-width: 450px) {
+    .title h1{
+        font-size: 2.5rem;
+    }
+    
+    .fotogabiru{
+        height: 150px;
+        width: 150px;
+    }
+
 }
